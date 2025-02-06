@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine($"Systeeminformatie voor {Environment.UserName} op {Environment.MachineName}");
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine($"Aantal processors: {Environment.ProcessorCount}");
+            Console.WriteLine($"64-bit besturingssysteem: {Environment.Is64BitOperatingSystem}");
+            Console.WriteLine($"Huidige geheugen gebruik: {Environment.WorkingSet} MB");
+            Console.WriteLine("---------------------------------------------------");
+            
         }
+
     }
 }

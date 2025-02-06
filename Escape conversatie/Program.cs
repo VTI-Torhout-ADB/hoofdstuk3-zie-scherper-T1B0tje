@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string personage1 = "Alice";
+            string personage2 = "Bob";
+
+            string dialoog = $"X";
+
+            Console.WriteLine($"{personage1}: Alice: \"Hoe gaat het met je?\"\r\n    {personage2}: \"Goed, dank je! Hoe gaat het met jou?\"\r\n{personage1}: \"Ook goed, bedankt dat je het vraagt.\"");
+            
         }
     }
 }
